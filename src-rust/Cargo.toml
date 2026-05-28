@@ -1,0 +1,15 @@
+[package]
+name = "proxima-backend"
+version = "4.1.0"
+edition = "2021"
+
+[dependencies]
+tokio = { version = "1.36", features = ["full"] }
+axum = { version = "0.7", features = ["ws", "multipart", "macros"] }
+serde = { version = "1.0", features = ["derive"] }
+serde_json = "1.0"
+tower-http = { version = "0.5", features = ["cors", "trace", "fs"] }
+reqwest = { version = "0.11", features = ["json", "stream"] }
+futures-util = "0.3"
+chrono = "0.4"
+uuid = { version = "1.7", features = ["v4"] }
