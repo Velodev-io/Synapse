@@ -283,7 +283,7 @@ function createWindow() {
             height: 38
         },
         backgroundColor: '#0f0f23',
-        icon: path.join(__dirname, '../assets/synapse-icon.png')
+        icon: path.join(__dirname, '../assets/synapse-logo.png')
     });
     mainWindow.setMaxListeners(50); // Electron BrowserView add/remove ops add internal 'closed' listeners
 

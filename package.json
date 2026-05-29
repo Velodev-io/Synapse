@@ -56,7 +56,7 @@
                     ]
                 }
             ],
-            "icon": "assets/synapse-icon.png",
+            "icon": "assets/synapse-logo.png",
             "artifactName": "${productName}-Setup-${version}.${ext}"
         },
         "nsis": {

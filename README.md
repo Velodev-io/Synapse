@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="assets/synapse-icon.png" alt="Synapse" width="80"/>
+<img src="assets/synapse-logo.png" alt="Synapse" width="80"/>
 
 # Synapse
 
